@@ -9,8 +9,20 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- FAVICONS: put these near top of <head> -->
+<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+<!-- PNG fallback and common sizes -->
+<!--link rel="icon" href="assets/img/favicon.png" sizes="32x32" type="image/png">-->
+<link rel="icon" href="assets/img/favicon.png" sizes="16x16" type="image/png">
+
+<!-- Apple touch icon (for iOS home screen) -->
+<link rel="apple-touch-icon" href="assets/img/favicon.png">
+
+<!-- Prevent old caches serving previous favicon: add a version query too (optional)
+     NOTE: if you rename file to favicon.* you can omit ?v=2 -->
+<link rel="icon" href="assets/img/favicon.ico?v=2" type="image/x-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
