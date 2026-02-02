@@ -1429,7 +1429,7 @@ section,
 /* level-based colors */
 .skill-list li[data-level="high"] .skill-dot { background: #28a745; }   /* green */
 .skill-list li[data-level="medium"] .skill-dot { background: #ffc107; } /* yellow */
-.skill-list li[data-level="low"] .skill-dot { background: #dc3545; }    /* red */
+.skill-list li[data-level="low"] .skill-dot { background: #ff7a1a; }    /* red */
 
 /* optional: support custom color via data-color attribute on the li */
 .skill-list li[data-color] .skill-dot {
